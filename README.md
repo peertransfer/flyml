@@ -2,6 +2,13 @@
 
 Application settings convention over YAML.
 
+## Build Status
+
+[![Build Status](https://travis-ci.org/peertransfer/flyml.svg?branch=master)](https://travis-ci.org/peertransfer/flyml)
+[![Coverage Status](https://coveralls.io/repos/github/peertransfer/flyml/badge.svg?branch=master)](https://coveralls.io/github/peertransfer/flyml?branch=master)
+[![Code Climate](https://codeclimate.com/github/peertransfer/flyml/badges/gpa.svg)](https://codeclimate.com/github/peertransfer/flyml)
+[![Dependency Status](https://gemnasium.com/peertransfer/flyml.svg)](https://gemnasium.com/peertransfer/flyml)
+
 ## Installation
 
 Add this line to your application's Gemfile:
