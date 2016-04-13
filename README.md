@@ -51,11 +51,10 @@ Here's how you would use Flyml:
 ```ruby
 require 'flyml'
 
-Flyml.env = 'development'
-Flyml.root = '/path/to/project_root'
+config = Flyml.config(root: '/path/to/project_root', env: Flyml.env = 'development')
 
-Flyml[:redis][:host] # 'dev.local'
-Flyml[:redis][:port] # 6379
+config[:redis][:host] # 'dev.local'
+config[:redis][:port] # 6379
 ```
 
 ## ToDo
