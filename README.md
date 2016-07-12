@@ -51,7 +51,7 @@ Here's how you would use Flyml:
 ```ruby
 require 'flyml'
 
-config = Flyml.config(root: '/path/to/project_root', env: Flyml.env = 'development')
+config = Flyml.config(root: '/path/to/project_root', env: 'development')
 
 config[:redis][:host] # 'dev.local'
 config[:redis][:port] # 6379
